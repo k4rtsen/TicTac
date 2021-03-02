@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    background: firebrick;
+    border-radius: 2.1rem;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+form {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-size: 18pt;
+}
+
+select {
+    margin-right: 10px;
+    background: white;
+    font-size: 18pt;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+#container div:hover {
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+main div {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left, .right, .center {
+    border: 1.5px black solid;
+}
+
+.left {
+    padding: 32px;
+    border-left: none;
+}
+
+.right {
+    padding: 32px;
+    border-right: none;
+}
+
+.center{
+    padding: 32px;
+}
+
+.top {
+    margin-top: 10px;
+}
+
+.top div {
+    border-top: none;
+}
+
+.bot {
+    margin-bottom: 10px;
+}
+
+.bot div {
+    border-bottom: none;
+}

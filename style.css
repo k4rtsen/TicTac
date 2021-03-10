@@ -2,6 +2,14 @@ header {
     display: flex;
     background: firebrick;
     border-radius: 2.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        width: 600px;
+    }
 }
 
 h1 {
@@ -25,17 +33,23 @@ select {
     border-radius: 0.8rem;
 }
 
-#container div:hover {
-    background-color: lightpink;
-    cursor: pointer;
-}
-
-main div {
+#container {
     display: flex;
     width: max-content;
     height: max-content;
     margin-left: auto;
     margin-right: auto;
+    /* background: firebrick; */
+}
+
+#container div {
+    width: 120px;
+    height: 120px;
+}
+
+#container div:hover {
+    background-color: lightpink;
+    cursor: pointer;
 }
 
 .left, .right, .center {
@@ -43,17 +57,11 @@ main div {
 }
 
 .left {
-    padding: 32px;
     border-left: none;
 }
 
 .right {
-    padding: 32px;
     border-right: none;
-}
-
-.center{
-    padding: 32px;
 }
 
 .top {

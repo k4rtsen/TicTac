@@ -10,7 +10,7 @@
 <body>
 
     <header>
-        <h1>NEW GAME</h1>
+        <h1 onclick="Start">NEW GAME</h1>
         <form id="chose">
             <strong>Your enemy is</strong>
             <select name="enemy">
@@ -24,22 +24,24 @@
     
     <main>
         <div id="container" class="top">
-            <div class="left"></div>
-            <div class="center"></div>
-            <div class="right"></div>
+            <div class="left" onclick="Insert11(this)"></div>
+            <div class="center" onclick="Insert12(this)"></div>
+            <div class="right" onclick="Insert13(this)"></div>
         </div>
         <div id="container" class="mid">
-            <div class="left"></div>
-            <div class="center"></div>
-            <div class="right"></div>
+            <div class="left" onclick="Insert21(this)"></div>
+            <div class="center" onclick="Insert22(this)"></div>
+            <div class="right" onclick="Insert23(this)"></div>
         </div>
         <div id="container" class="bot">
-            <div class="left"></div>
-            <div class="center"></div>
-            <div class="right"></div>
+            <div class="left" onclick="Insert31(this)"></div>
+            <div class="center" onclick="Insert32(this)"></div>
+            <div class="right" onclick="Insert33(this)"></div>
         </div>
     </main>
 
     <footer></footer>
+
+    <script src="back.js"></script>
 </body>
 </html>
